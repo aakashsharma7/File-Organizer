@@ -200,7 +200,7 @@ class FileHandler(FileSystemEventHandler):
 class FileOrganizerGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("File Organizer")
+        self.root.title("File Organizer - Made with ❤️ by Aakash Sharma")
         self.root.geometry("800x700")
         
         # Initialize theme
@@ -336,7 +336,11 @@ class FileOrganizerGUI:
     def setup_gui(self):
         # Main container
         main_frame = ttk.Frame(self.root, padding="10")
-        main_frame.pack(fill="both", expand=True)
+        main_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Add footer label
+        footer_label = ttk.Label(main_frame, text="Made with ❤️ by Aakash Sharma", font=("Arial", 8))
+        footer_label.pack(side=tk.BOTTOM, pady=5)
         
         # Left panel (controls)
         left_panel = ttk.Frame(main_frame)
