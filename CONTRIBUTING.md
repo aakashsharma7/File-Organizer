@@ -185,4 +185,6 @@ By contributing to File Organizer, you agree that your contributions will be lic
 
 ---
 
-Thank you for contributing to File Organizer! 🎉 
+Thank you for contributing to File Organizer! 🎉
+
+Made with ❤️ by Aakash Sharma 

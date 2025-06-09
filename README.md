@@ -173,4 +173,4 @@ Give a ⭐️ if this project helped you!
 - [ ] More file type support
 
 ---
-Made with ❤️ by [Your Name]
+Made with ❤️ by Aakash Sharma
